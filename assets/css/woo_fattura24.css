@@ -1,0 +1,133 @@
+#woo_fattura24 header {
+    display: block;
+    background: url(../image/logo_orange.png) no-repeat #FFFFFF;
+    background-position: 20px center;
+    padding: 60px;
+}
+
+#promo_premium {
+    display: block;
+    background: url(../image/comparazione_premium_woof24.png) no-repeat #FFFFFF;
+    background-position: 0px center;
+    padding: 194px;
+    vertical-align: top;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#zero_rate_settings {
+
+    display: block;
+    background: url(../image/zero_rate_settings.png) no-repeat #FFFFFF;
+    background-position: 0px center;
+    padding: 40px;
+    vertical-align: top;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 380px;
+
+}
+
+/* ----------------------------------------------------------------------------
+  3.0 - Primary Button Style
+---------------------------------------------------------------------------- */
+
+.wp-core-ui .button-primary {
+    background: #ff9500;
+    border-color: #ffb101 #eb8a00 #eb8a00;
+    box-shadow: 0 1px 0 #e78800;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #eb8a00,
+    1px 0 1px #ff9500,
+    0 1px 1px #e7a004,
+    -1px 0 1px #e78800;
+}
+
+.wp-core-ui .button-primary.hover,
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary:focus {
+    background: #ffb000;
+    border-color: #eb8a00;
+    color: #fff;
+}
+
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary:focus {
+    box-shadow: 0 1px 0 #e7a004,
+    0 0 2px 1px #ffc200;
+}
+
+.wp-core-ui .button-primary.active,
+.wp-core-ui .button-primary.active:hover,
+.wp-core-ui .button-primary.active:focus,
+.wp-core-ui .button-primary:active {
+    background: #ff9500;
+    border-color: #eb8a00;
+    box-shadow: inset 0 2px 0 #e7a004;
+    vertical-align: top;
+}
+
+.wp-core-ui .button-primary[disabled],
+.wp-core-ui .button-primary:disabled,
+.wp-core-ui .button-primary-disabled,
+.wp-core-ui .button-primary.disabled {
+    color: #ffc200 !important;
+    background: #e7a004 !important;
+    border-color: #eb8a00 !important;
+    box-shadow: none !important;
+    text-shadow: 0 -1px 0 rgba( 0, 0, 0, 0.1 ) !important;
+    cursor: default;
+}
+
+.wp-core-ui .button.button-primary.button-hero {
+    box-shadow: 0 2px 0 #ff9500;
+}
+
+.wp-core-ui .button.button-primary.button-hero.active,
+.wp-core-ui .button.button-primary.button-hero.active:hover,
+.wp-core-ui .button.button-primary.button-hero.active:focus,
+.wp-core-ui .button.button-primary.button-hero:active {
+    box-shadow: inset 0 3px 0 #ffb000;
+}
+
+
+
+
+#fatture-elenco {
+    float: right;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+}
+
+#fatture-elenco {
+    float: right;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 15px;
+    background-color: #FFFFFE;
+}
+
+#email-elenco {
+    float: right;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+}
+
+h2 span {
+    background-color: #ffb000;
+}
+
+.f24_pwd_textbox {
+    width: 300px; height: 20px
+}
